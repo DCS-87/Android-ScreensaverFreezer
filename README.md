@@ -9,3 +9,5 @@ It targets my Galaxy Tab A with Android 7.1.1., it does not seem to work on my n
 - Let the screensaver start (in the background)
 - After 1 minute it will refresh so a photo is show
 - From then on, it refreshes on the set interval
+
+Yes it's all AI coded, no I don't really get how github and releases work. There is an apk under 'app\build\outputs\apk\debug\app-debug.apk'
