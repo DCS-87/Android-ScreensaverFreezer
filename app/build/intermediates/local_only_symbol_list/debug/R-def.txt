@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+id btn_start
+id btn_stop
+id btn_test
+id duration_spinner
+id frozen_image
+layout activity_main
+layout overlay_image
+string app_name
+string service_running
+string start_service
+string stop_service
+style Theme.ScreensaverFreezer

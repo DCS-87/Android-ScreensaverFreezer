@@ -1,0 +1,6 @@
+com.antigravity.screensaverfreezer.test.app-androidTest-0 C:\Repos\ScreensaverFreezer\app\build\generated\res\resValues\androidTest\debug
+com.antigravity.screensaverfreezer.test.app-mergeDebugAndroidTestResources-1 C:\Repos\ScreensaverFreezer\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.antigravity.screensaverfreezer.test.app-mergeDebugAndroidTestResources-2 C:\Repos\ScreensaverFreezer\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.antigravity.screensaverfreezer.test.app-merged_res-3 C:\Repos\ScreensaverFreezer\app\build\intermediates\merged_res\debugAndroidTest
+com.antigravity.screensaverfreezer.test.app-jetified-annotation-experimental-1.3.0-4 C:\Users\tim\.gradle\caches\transforms-3\9a1369274ad622513d2bdad7569e538e\transformed\jetified-annotation-experimental-1.3.0\res
+com.antigravity.screensaverfreezer.test.app-jetified-core-1.5.0-5 C:\Users\tim\.gradle\caches\transforms-3\fb8ea30f82865f20a38277cd90750136\transformed\jetified-core-1.5.0\res

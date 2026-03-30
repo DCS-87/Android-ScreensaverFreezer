@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.antigravity.screensaverfreezer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="25" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:7:22-74
+14    <!-- Required for MediaProjection on newer Android versions even if targeting 25 -->
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+15-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:9:5-94
+15-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:9:22-91
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:10:5-68
+16-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+17-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:11:5-95
+17-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:11:22-92
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\tim\.gradle\caches\transforms-3\e73658a6062f22ea467cb274329ae9b0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.antigravity.screensaverfreezer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\tim\.gradle\caches\transforms-3\e73658a6062f22ea467cb274329ae9b0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\tim\.gradle\caches\transforms-3\e73658a6062f22ea467cb274329ae9b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.antigravity.screensaverfreezer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\tim\.gradle\caches\transforms-3\e73658a6062f22ea467cb274329ae9b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\tim\.gradle\caches\transforms-3\e73658a6062f22ea467cb274329ae9b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:13:5-36:19
+26        android:allowBackup="true"
+26-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:14:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\tim\.gradle\caches\transforms-3\e73658a6062f22ea467cb274329ae9b0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="true"
+30        android:label="@string/app_name"
+30-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:15:9-41
+31        android:supportsRtl="true"
+31-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:16:9-35
+32        android:theme="@style/Theme.ScreensaverFreezer" >
+32-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:17:9-56
+33        <activity
+33-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:19:9-27:20
+34            android:name="com.antigravity.screensaverfreezer.MainActivity"
+34-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:20:13-41
+35            android:configChanges="orientation|screenSize"
+35-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:22:13-59
+36            android:exported="true" >
+36-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:21:13-36
+37            <intent-filter>
+37-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:23:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:24:17-69
+38-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:25:17-77
+40-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:29:9-34:36
+45            android:name="com.antigravity.screensaverfreezer.ScreensaverFreezerService"
+45-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:30:13-54
+46            android:enabled="true"
+46-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:31:13-35
+47            android:exported="false"
+47-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:32:13-37
+48            android:foregroundServiceType="mediaProjection" />
+48-->C:\Repos\ScreensaverFreezer\app\src\main\AndroidManifest.xml:33:13-60
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tim\.gradle\caches\transforms-3\cb5672ac8e70dda5a3f8e1928ec8f49c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tim\.gradle\caches\transforms-3\cb5672ac8e70dda5a3f8e1928ec8f49c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+52            android:authorities="com.antigravity.screensaverfreezer.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tim\.gradle\caches\transforms-3\cb5672ac8e70dda5a3f8e1928ec8f49c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tim\.gradle\caches\transforms-3\cb5672ac8e70dda5a3f8e1928ec8f49c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tim\.gradle\caches\transforms-3\cb5672ac8e70dda5a3f8e1928ec8f49c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tim\.gradle\caches\transforms-3\cb5672ac8e70dda5a3f8e1928ec8f49c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\tim\.gradle\caches\transforms-3\cb5672ac8e70dda5a3f8e1928ec8f49c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\tim\.gradle\caches\transforms-3\18a11f0182913f9a1986e755c4f857b8\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\tim\.gradle\caches\transforms-3\18a11f0182913f9a1986e755c4f857b8\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\tim\.gradle\caches\transforms-3\18a11f0182913f9a1986e755c4f857b8\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>
